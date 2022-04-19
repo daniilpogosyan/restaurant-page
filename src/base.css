@@ -1,0 +1,30 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header {
+  /* so that child heading's margin won't push header down */
+  overflow: auto;
+
+  background-color: yellow;
+}
+
+.heading {
+  text-align: center;
+}
+
+.tab-list {
+  padding: 0;
+  margin: 0; 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+  list-style: none;
+}
