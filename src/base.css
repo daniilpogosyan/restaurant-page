@@ -28,3 +28,12 @@ html, body {
   gap: 50px;
   list-style: none;
 }
+
+
+.footer {
+  background-color: pink;
+}
+
+.copyright {
+  text-align: center;
+}

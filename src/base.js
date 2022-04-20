@@ -5,7 +5,7 @@
 import './base.css'
 
 
-function createHeader() {
+export function createHeader() {
   const header = document.createElement('header');
   header.classList.add('header');
 
@@ -39,5 +39,15 @@ function createTabs() {
   return tabs;
 }
 
+export function createFooter() {
+  const footer = document.createElement('footer');
+  footer.classList.add('footer');
 
-export {createHeader};
+  const copyright = document.createElement('p');
+  copyright.textContent = 'Created by Thor';
+  copyright.classList.add('copyright')
+
+  footer.appendChild(copyright);
+  
+  return footer;
+}
