@@ -33,6 +33,18 @@ body {
   list-style: none;
 }
 
+.header__tab {
+  background-color: #b6d0ff;
+  color: #000;
+  height: 50px;
+  width: 80px;
+}
+.header__tab--active {
+  background-color: #2c75fd;
+  color: #fff;
+}
+
+
 .content {
   flex: 1;
   background-color: peachpuff;

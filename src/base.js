@@ -24,6 +24,8 @@ function createTabs() {
   const createTab = (name) => {
     const tabContent = document.createElement('button');
     tabContent.textContent = name;
+    tabContent.dataset.builderName = name.toLowerCase().replace(/\s+/g,'-');
+    tabContent.classList.add('header__tab');
 
     const liWrap = document.createElement('li')
     liWrap.appendChild(tabContent);
