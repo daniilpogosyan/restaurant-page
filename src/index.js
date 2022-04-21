@@ -1,5 +1,5 @@
 import {createHeader, createFooter, createMain} from "./base";
-import {createHero} from "./home";
+import {createHero, createHomeInfo} from "./home";
 const content = document.getElementById('content');
 
 const header = createHeader();
@@ -11,4 +11,5 @@ content.appendChild(main)
 const footer = createFooter();
 content.appendChild(footer)
 
-main.appendChild(createHero())
+main.appendChild(createHero());
+main.appendChild(createHomeInfo());
