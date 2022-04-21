@@ -52,10 +52,10 @@ export function createFooter() {
   return footer;
 }
 
-
-export function createMain() {
-  const main = document.createElement('main');
-  main.classList.add('main-content');
+export function createContent() {
+  const content = document.createElement('main');
+  content.classList.add('content');
+  content.id = 'content';
   
-  return main;
+  return content;
 }
