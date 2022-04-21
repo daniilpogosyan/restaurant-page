@@ -34,7 +34,7 @@ function createTabs() {
   const tabs = document.createElement('ul');
   tabs.appendChild(createTab('Home'));
   tabs.appendChild(createTab('Menu'));
-  tabs.appendChild(createTab('About us'));
+  tabs.appendChild(createTab('Contact us'));
 
   return tabs;
 }
