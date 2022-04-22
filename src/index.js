@@ -1,5 +1,9 @@
 import {createHeader, createFooter, createContent} from "./base";
 import {createHero, createHomeInfo} from "./home";
+import {createItem, createItemsList} from "./menu"
+
+const itemsImages = require.context('./', false, /\.jpg/);
+console.log(itemsImages.keys(itemsImages))
 
 const content = (() => {
   const header = createHeader();
@@ -20,6 +24,7 @@ const content = (() => {
     },
     "menu": () => {
       clear();
+      content.appendChild(createItemsList())
     },
     "contact-us": () => {
       clear();

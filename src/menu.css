@@ -1,0 +1,27 @@
+.menu-list {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  margin: 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-list__item {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  box-shadow: 5px 5px 10px 0  #777;
+  background-color: #ffb972;
+}
+
+.item__heading {
+  text-align: center;
+}
+
+.item__image {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
