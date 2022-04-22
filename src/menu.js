@@ -6,7 +6,6 @@ export function createItemsList() {
   const list = document.createElement('ul');
   list.classList.add('menu-list');
   itemsImages.keys().map(itemsImages).forEach(img =>{
-    console.log(img)
     let item = createItem('icecream', img);
     list.appendChild(item);
   })
