@@ -1,6 +1,7 @@
 import {createHeader, createFooter, createContent} from "./base";
 import {createHero, createHomeInfo} from "./home";
 import {createItem, createItemsList} from "./menu";
+import {createContacts} from "./contactUs";
 
 
 const content = (() => {
@@ -26,7 +27,7 @@ const content = (() => {
     },
     "contact-us": () => {
       clear();
-
+      content.appendChild(createContacts());
     },
   };
 
