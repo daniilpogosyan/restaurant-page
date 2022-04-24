@@ -1,4 +1,4 @@
-import './contactUs.css';
+import '../styles/contactUs.css';
 
 
 const contactWays = {

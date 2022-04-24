@@ -1,5 +1,5 @@
-import './home.css';
-import heroImg from './hero_icecream.svg';
+import '../styles/home.css';
+import heroImg from '../assets/home/hero_icecream.svg';
 
 
 export function createHero() {

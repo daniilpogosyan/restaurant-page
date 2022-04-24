@@ -2,7 +2,7 @@
 // such as header, footer etc
 
 
-import './base.css'
+import '../styles/base.css'
 
 
 export function createHeader() {

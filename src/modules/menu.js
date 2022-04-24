@@ -1,6 +1,6 @@
-import './menu.css';
+import '../styles/menu.css';
 
-const itemsImages = require.context('./', false, /\.(jpg)|(jpeg)|(png)/);
+const itemsImages = require.context('../assets/items-images', false, /\.(jpg)|(jpeg)|(png)/);
 
 export function createItemsList() {
   const list = document.createElement('ul');

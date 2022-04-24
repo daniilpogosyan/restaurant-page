@@ -1,7 +1,7 @@
-import {createHeader, createFooter, createContent} from "./base";
-import {createHero, createHomeInfo} from "./home";
-import {createItem, createItemsList} from "./menu";
-import {createContacts} from "./contactUs";
+import {createHeader, createFooter, createContent} from "./modules/base";
+import {createHero, createHomeInfo} from "./modules/home";
+import {createItemsList} from "./modules/menu";
+import {createContacts} from "./modules/contactUs";
 
 
 const content = (() => {
